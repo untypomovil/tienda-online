@@ -1,0 +1,93 @@
+.cart-page {
+  
+  padding: 2rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px;
+  max-width: 720px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.cart-item img {
+  width: 80px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.cart-total {
+  margin-top: 2rem;
+  text-align: right;
+  margin-left: 1rem;
+}
+
+.checkout-button {
+  margin-left: 1.5rem; /* separa del total */
+}
+
+.checkout-button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  border-bottom: 1px solid #ddd; /* 👉 Línea sutil entre productos */
+  padding-bottom: 1rem;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Sección izquierda: imagen + nombre */
+.cart-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Estilos para imagen */
+.cart-image {
+  width: 60px;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Sección derecha: precio + botón */
+.cart-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.cart-name {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cart-price {
+  font-size: 0.9rem;
+  color: #333;
+}

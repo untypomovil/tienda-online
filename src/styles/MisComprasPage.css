@@ -1,0 +1,64 @@
+.mis-compras {
+  max-width: 1000px;
+  margin: 2rem auto;
+  background-color: #fff8f0;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mis-compras__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.mis-compras__tarjeta {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mis-compras__tarjeta-titulo {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.mis-compras__lista-productos {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.mis-compras__producto {
+  margin-bottom: 0.3rem;
+  background-color: #fdfdfd;
+  padding: 0.5rem;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+.mis-compras__acciones {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.mis-compras__boton {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #eee;
+  border: 1px solid #bbb;
+  transition: background-color 0.3s ease;
+}
+
+.mis-compras__boton:hover {
+  background-color: #ddd;
+}

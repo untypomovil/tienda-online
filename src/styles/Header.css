@@ -1,0 +1,36 @@
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffcc70;
+  color: #143c21;
+  padding: 3px 15% 0px 15%;
+  text-align: center;
+}
+
+.encabezado__nav {
+  margin-top: 10px;
+}
+
+.encabezado__lista {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.encabezado__enlace {
+  text-decoration: none;
+  color: #143c21;
+  font-weight: bold;
+}
+
+.encabezado__enlace:hover {
+  color: #218942;
+}
+
+.encabezado__logo {
+  width: auto;
+  height: 64px; /* 🧠 Esto mantiene la proporción */
+}

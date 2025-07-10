@@ -1,0 +1,16 @@
+.filtro-precio {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  align-items: center;
+}
+
+.filtro-precio label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.filtro-precio input[type="range"] {
+  flex: 1;
+}

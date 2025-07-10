@@ -1,0 +1,46 @@
+.slider-carousel {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  overflow: hidden;
+}
+
+.slider-carousel__track {
+  display: flex;
+  gap: 1.5rem;
+  animation: slider-carousel__scroll 180s linear infinite;
+  width: max-content;
+}
+
+.slider-carousel__item {
+  min-width: 180px;
+  max-width: 200px;
+  flex: 0 0 auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.slider-carousel__imagen {
+  max-width: 50%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.slider-carousel__boton {
+  margin-top: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+/* Animación */
+@keyframes slider-carousel__scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}

@@ -1,0 +1,54 @@
+.contacto-pagina {
+  width: 100%;
+  max-width: 400px; /* Puedes ampliarlo si deseas */
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.contacto-pagina__titulo {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contacto-pagina__formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contacto-pagina__label {
+  font-weight: 500;
+}
+
+.contacto-pagina__campo,
+.contacto-pagina__textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Botón de envío */
+.contacto-pagina__boton {
+  padding: 0.75rem;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contacto-pagina__boton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Mensajes de estado */
+.contacto-pagina__mensaje--exito {
+  color: green;
+  font-size: 0.9rem;
+}
+
+.contacto-pagina__mensaje--error {
+  color: red;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,23 @@
+.lista-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 72px 9%;
+}
+
+.lista-productos__vacio {
+  text-align: center;
+  color: #777;
+  padding: 40px;
+  font-style: italic;
+}
+
+.lista-productos__slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  width: 100%;
+}
